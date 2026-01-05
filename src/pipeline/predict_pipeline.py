@@ -13,10 +13,6 @@ class PredictPipeline:
         pass
 
     def predict_percentage(self, features: pd.DataFrame):
-        """
-        features: Pandas DataFrame containing input features (NO target column)
-        returns: Dropout percentage
-        """
         try:
             logging.info("Loading preprocessor and trained model")
 
