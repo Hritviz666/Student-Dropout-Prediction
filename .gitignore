@@ -1,0 +1,11 @@
+dropout_env/
+__pycache__/
+*.pkl
+.env
+*.log
+.idea/
+.vscode/
+
+Student_dropout_predictor.egg-info/
+catboost_info/
+artifacts/
